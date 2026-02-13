@@ -1,4 +1,8 @@
-# Comparador de Archivos
+<p align="center">
+  <img src="logo.png" alt="67 Logo" width="128"/>
+</p>
+
+# 67 - Comparador de Archivos
 
 Herramienta de análisis y comparación de archivos que detecta diferencias a nivel de byte, encoding, BOM, line endings y caracteres ocultos.
 
@@ -46,10 +50,10 @@ O manualmente con PyInstaller:
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --windowed --icon=logo.png --name="ComparadorArchivos" 67.py
+pyinstaller --onefile --windowed --icon=logo.png --name="67" 67.py
 ```
 
-El ejecutable se generará en `dist\ComparadorArchivos.exe`
+El ejecutable se generará en `dist\67.exe`
 
 ## Screenshot
 
